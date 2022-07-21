@@ -1,0 +1,10 @@
+.popup__profile-name {
+    margin: 54px 36px 0;
+    padding: 0;
+    width: 358px;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-bottom: 1px solid #000000;
+}
