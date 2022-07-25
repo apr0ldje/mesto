@@ -8,3 +8,7 @@
     border: none;
     background-image: url(../../../images/close__icon.svg);
 }
+
+.popup__close:hover {
+    opacity: 0.6;
+}
