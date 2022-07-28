@@ -1,0 +1,21 @@
+.popup__profile-input {
+    margin: 54px 36px 0;
+    padding: 0;
+    max-width: 358px;
+    border-width: 0;
+    border-style: none;
+    border-image: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 550px) {
+    .popup__profile-input {
+        max-width: calc(100% - 44px);
+    }
+}

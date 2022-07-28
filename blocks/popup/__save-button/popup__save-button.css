@@ -6,6 +6,7 @@
     border-radius: 2px;
     margin: 48px 36px 37px;
     padding: 0;
+    border: none;
 
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -13,9 +14,17 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    cursor: pointer;
 }
 
 .popup__save-button:hover {
     background: #000000;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 550px) {
+    .popup__save-button {
+        max-width: calc(100% - 44px);
+        margin: 45px 22px 25px;
+    }
 }
