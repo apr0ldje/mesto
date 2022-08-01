@@ -8,6 +8,7 @@
     border: none;
     background-image: url(../../../images/close__icon.svg);
     cursor: pointer;
+    background-size: contain;
 }
 
 .popup__close:hover {
@@ -16,7 +17,9 @@
 
 @media screen and (max-width: 380px) {
     .popup__close {
-        top: -50px;
+        top: -35px;
         right: 0;
+        width: 20px;
+        height: 20px;
     }
 }

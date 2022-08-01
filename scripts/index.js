@@ -10,13 +10,11 @@ const nameInputForm = document.getElementById('popup__profile-name');
 const jobInputForm = document.getElementById('popup__profile-title');
 
 
-nameInputForm.value = profileName.textContent;
-jobInputForm.value = profileJob.textContent;
-
 //Открытие popup и закрытие popup
 function popupOpen() {
     popupElm.classList.add('popup_is-opened');
-    console.log('opened');
+    nameInputForm.value = profileName.textContent;
+    jobInputForm.value = profileJob.textContent;
 }
 
 function popupClose() {
