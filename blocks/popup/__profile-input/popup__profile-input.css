@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 550px) {
     .popup__profile-input {
-        max-width: calc(100% - 44px);
+        max-width: 238px;
+        margin: 30px 22px 0;
     }
 }

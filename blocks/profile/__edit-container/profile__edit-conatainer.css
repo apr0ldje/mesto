@@ -2,5 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 39px;
+}
+
+
+@media screen and (max-width: 550px) {
+    .profile__edit-container {
+        max-width: 250px;
+    }
 }
