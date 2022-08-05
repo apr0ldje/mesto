@@ -3,7 +3,8 @@
     width: 142px;
     height: 33px;
     margin-bottom: 41px;
-    max-width: 104px;
+    max-width: 142px;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -11,8 +12,8 @@
 @media screen and (max-width: 900px) {
     .header__logo {
         margin: 28px auto 31px 27px;
-        width: 103.74px;
-        height: 24.4px;
+        width: 110px;
+        height: 25px;
         background-size: cover;
     }
 }
